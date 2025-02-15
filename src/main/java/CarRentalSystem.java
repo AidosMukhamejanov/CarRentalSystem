@@ -4,7 +4,7 @@ public class CarRentalSystem {
         Scanner scanner = new Scanner(System.in);
         VehicleService vehicleService = new VehicleService();
         BookingService bookingService = new BookingService();
-        BillingSerivce billingService = new BillingSerivce();
+        BillingService billingService = new BillingService();
 
         while (true) {
             System.out.println("\n=== Car Rental System ===");
